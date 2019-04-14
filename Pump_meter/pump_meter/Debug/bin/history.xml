@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=pump_meter.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\pump_meter -TC:\CooCox\CoIDE\configuration\ProgramData\pump_meter/arm-gcc-link.ld -g -L..\..\.. -lm">
+      <target file="pump_meter.elf" lastModified="1591b6db92d">
+         <source file="..\obj\fontTimesNewRoman16pt.o" lastModified="15916231b9f"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="15916231c5a"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="15916231c99"/>
+         <source file="..\obj\main.o" lastModified="1591b6db71a"/>
+         <source file="..\obj\wg12864a.o" lastModified="1591623b6b6"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/ID:\Project\Pump_meter\cmsis_boot /ID:\Project\Pump_meter\cmsis /ID:\Project /ID:\Project\Pump_meter /ID:\Project\Pump_meter\WG12864A">
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="159014ec82e">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\WG12864A\wg12864a.h" lastModified="15916233820">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\WG12864A\fontStructures.h"/>
+      </source>
+      <source file="..\..\..\WG12864A\fontStructures.h" lastModified="140a2609f80">
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="159014d4065">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="159014d4075">
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="159014d3c6e">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="159014fc2ca">
+      </source>
+      <source file="..\..\..\WG12864A\wg12864a.c" lastModified="1591623b09b">
+         <include file="..\..\..\WG12864A\wg12864a.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="159014d3838">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="159014d3847">
+      </source>
+      <source file="..\..\..\WG12864A\fontTimesNewRoman16pt.c" lastModified="1497b35a596">
+         <include file="..\..\..\WG12864A\fontStructures.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="159019e4201">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/ID:\Project\Pump_meter\cmsis_boot /ID:\Project\Pump_meter\cmsis /ID:\Project /ID:\Project\Pump_meter\delay /ID:\Project\Pump_meter /ID:\Project\Pump_meter\WG12864A">
+      <source file="..\..\..\WG12864A\fontStructures.h" lastModified="140a2609f80">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="159014fc2ca">
+      </source>
+      <source file="..\..\..\delay\delay.h" lastModified="14c7017ed72">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\delay\delay.c" lastModified="152d09ec5b9">
+         <include file="..\..\..\delay\delay.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="159014d3838">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="159014d3847">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="159019e4201">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/ID:\Project\Pump_meter\cmsis_boot /ID:\Project\Pump_meter\cmsis /ID:\Project /ID:\Project\Pump_meter">
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="159014fc2ca">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="159014d3838">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="159014d3847">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="159019e4201">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+   </includePath>
+</dependencies>

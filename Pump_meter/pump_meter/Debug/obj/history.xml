@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.9.1 i686-w64-mingw32 -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\Project\Pump_meter\cmsis_boot -ID:\Project\Pump_meter\cmsis -ID:\Project -ID:\Project\Pump_meter\delay -ID:\Project\Pump_meter -ID:\Project\Pump_meter\WG12864A">
+      <target file="delay.o" lastModified="1590794e9dc">
+         <source file="..\..\..\delay\delay.c" lastModified="152d09ec5b9"/>
+      </target>
+   </processor>
+   <processor signature="arm-none-eabi-gcc 4.9.1 i686-w64-mingw32 -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\Project\Pump_meter\cmsis_boot -ID:\Project\Pump_meter\cmsis -ID:\Project -ID:\Project\Pump_meter -ID:\Project\Pump_meter\WG12864A">
+      <target file="startup_stm32f10x_md.o" lastModified="15916231c99">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="159014fc2ca"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="15916231c5a">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="159019e4201"/>
+      </target>
+      <target file="main.o" lastModified="1591b6db71a">
+         <source file="..\..\..\main.c" lastModified="1591b6db0b1"/>
+      </target>
+      <target file="wg12864a.o" lastModified="1591623b6b6">
+         <source file="..\..\..\WG12864A\wg12864a.c" lastModified="1591623b09b"/>
+      </target>
+      <target file="fontTimesNewRoman16pt.o" lastModified="15916231b9f">
+         <source file="..\..\..\WG12864A\fontTimesNewRoman16pt.c" lastModified="1497b35a1ae"/>
+      </target>
+   </processor>
+</history>
